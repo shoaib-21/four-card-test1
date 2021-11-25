@@ -1,0 +1,116 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px auto 30px;
+    
+}
+#top{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.top_thin{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 100;
+    font-size: 1.6rem;
+    color: hsl(234, 12%, 34%);
+
+
+    
+}
+.top_thick{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: hsl(234, 12%, 34%);
+
+}
+
+.top_text{
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(229, 6%, 66%);
+    font-size: 1rem;
+    margin: 20px;
+    padding: 0 20px 40px;
+    line-height: 27px;
+}
+.block{
+    width: 310px;
+    height: 215px;
+    background-color: white;
+    margin: 0 15px 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius:7px ;
+    border-bottom-right-radius: 7px;
+    box-sizing: border-box;
+    padding: 25px;
+    box-shadow: 0 7px 22px -7px hsl(229, 59%, 86%);
+    position: relative;;
+}
+
+.block p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.85rem;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 1.2rem;
+   
+   
+}
+
+.block h3{
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.1rem;
+    color: hsl(234, 12%, 34%);
+    font-weight: 100;
+    margin: 0 auto 10px;
+
+}
+
+main img{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+#supervisor{
+    border-top: 4px solid hsl(180, 62%, 55%);
+
+   
+
+    
+
+}
+
+#team_b{
+    border-top: 4px solid hsl(0, 78%, 62%);
+
+}
+
+#karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+
+}
+
+#calculator{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-bottom: 30px;
+
+}
